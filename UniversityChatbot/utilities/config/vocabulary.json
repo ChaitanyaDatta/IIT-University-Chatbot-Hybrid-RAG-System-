@@ -1,0 +1,218 @@
+{
+  "non_name_words": [
+    "fall", "spring", "summer", "winter",
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december",
+    "holiday", "holidays", "break", "breaks", "schedule", "schedules",
+    "deadline", "deadlines", "term", "semester", "session", "orientation",
+    "finals", "final", "exam", "exams", "week", "day", "year",
+    "commencement", "graduation", "convocation",
+    "early", "departure", "midterm", "midterms", "grading", "begins",
+    "registration", "coursera", "campus", "course", "courses",
+    "class", "classes", "credit", "credits", "load", "limit",
+    "add", "drop", "withdraw", "withdrawal", "audit", "overload",
+    "grade", "grades", "appeal", "transcript", "enrollment",
+    "transfer", "abroad", "study", "research", "advising",
+    "student", "students", "faculty", "staff", "advisor", "dean",
+    "professor", "instructor", "new", "office", "hours",
+    "honor", "honors", "roll", "list", "labor", "policy", "policies",
+    "fee", "fees", "never", "mind"
+  ],
+
+  "non_contact_anchors": [
+    "tuition", "fee", "fees", "cost", "costs", "rate", "rates",
+    "policy", "policies", "rule", "rules", "probation", "gpa",
+    "housing", "visa", "handbook", "calendar", "holiday", "holidays",
+    "deadline", "deadlines", "break", "breaks", "semester", "term",
+    "document", "documents"
+  ],
+
+  "tuition_school_map": {
+    "chicago-kent": "Chicago-Kent",
+    "chicago kent": "Chicago-Kent",
+    "kent": "Chicago-Kent",
+    "kent law": "Chicago-Kent",
+    "law school": "Chicago-Kent",
+    "institute of design": "Institute of Design",
+    "intensive english": "Intensive English Program",
+    "english program": "Intensive English Program",
+    "iep": "Intensive English Program",
+    "mies": "Mies",
+    "mies campus": "Mies",
+    "stuart": "Stuart School of Business",
+    "stuart school": "Stuart School of Business",
+    "business school": "Stuart School of Business"
+  },
+
+  "tuition_level_map": {
+    "graduate": "graduate",
+    "grad": "graduate",
+    "undergraduate": "undergrad",
+    "undergrad": "undergrad"
+  },
+
+  "tuition_fee_kind_exclude_patterns": [
+    "continuation",
+    "continuation studies",
+    "credit by proficiency",
+    "proficiency exam",
+    "graduate continuation",
+    "all fees",
+    "mandatory",
+    "other fees"
+  ],
+
+  "tuition_structural_vocab": [
+    "tuition", "fees", "fee", "rate", "rates", "cost", "costs",
+    "price", "prices", "charge", "charges", "per credit", "credit hour",
+    "mandatory", "activity fee", "health insurance", "student service",
+    "graduate", "undergraduate", "full-time", "part-time",
+    "full time", "part time", "billing", "llm", "mdes", "mdm",
+    "per semester", "per term", "upass", "u-pass",
+    "deposit", "admissions deposit", "application fee",
+    "refund", "payment", "installment"
+  ],
+
+  "tuition_specific_extras": [
+    "upass", "u-pass", "deposit", "application fee"
+  ],
+
+  "tuition_level_terms": [
+    "graduate", "grad", "undergraduate", "undergrad", "masters", "doctoral", "phd", "llm", "mdes", "mdm"
+  ],
+
+  "tuition_school_alias_terms": [
+    "kent", "chicago-kent", "chicago kent", "law school", "stuart", "business school",
+    "mies", "institute of design", "iep", "intensive english"
+  ],
+
+  "tuition_generic_fee_names": [
+    "tuition", "fees", "fee", "cost", "costs", "rate", "rates"
+  ],
+
+  "department_strip_prefixes": [
+    "department of ",
+    "college of ",
+    "school of ",
+    "institute of ",
+    "office of "
+  ],
+
+  "department_generic_skip": [
+    "law", "design", "letters", "science", "arts"
+  ],
+
+  "department_manual_aliases": [
+    "financial aid", "registrar", "admissions", "bursar", "advising",
+    "it helpdesk", "helpdesk", "kent", "kent law", "stuart", "armour",
+    "lewis", "kaplan", "pritzker", "wiser", "ifsh",
+    "student accounting", "graduate admission", "undergraduate admission",
+    "student affairs", "academic affairs", "global services",
+    "office of the registrar", "student accounting office",
+    "dean of students", "dean of admissions", "dean of libraries"
+  ],
+
+  "contact_dept_picker_options": [
+    "Registrar", "Financial Aid", "Student Accounting", "Academic Affairs",
+    "Admissions", "Student Affairs", "Global Services",
+    "Armour College of Engineering", "College of Computing",
+    "College of Architecture", "Chicago-Kent College of Law",
+    "Stuart School of Business", "Lewis College of Science and Letters",
+    "Institute of Design", "Computer Science", "Physics", "Chemistry"
+  ],
+
+  "calendar_holidays": [
+    "thanksgiving", "christmas", "labor day", "memorial day", "juneteenth",
+    "independence day", "martin luther king", "mlk", "new year",
+    "spring break", "fall break", "winter break",
+    "holiday", "holidays", "university holiday", "paid holiday", "floating holiday"
+  ],
+
+  "calendar_term_words": [
+    "spring", "fall", "summer", "winter", "semester", "term"
+  ],
+
+  "calendar_weak_words": [
+    "deadline", "due", "start", "end", "begin", "close", "week", "weeks",
+    "first day", "last day", "first class", "last class", "orientation"
+  ],
+
+  "calendar_date_words": [
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december"
+  ],
+
+  "calendar_specific_terms": [
+    "spring", "fall", "summer", "winter", "term a", "term b", "coursera"
+  ],
+
+  "contact_slot_words": [
+    "phone", "phones", "email", "emails", "call", "number", "numbers", "fax",
+    "contact", "contacts", "address", "addresses", "handles", "handle",
+    "manages", "manage", "responsible", "reach",
+    "in charge", "who do i", "who should i", "who can i", "who is", "who's",
+    "is there a", "are there"
+  ],
+
+  "location_slot_words": [
+    "where", "building", "buildings", "location", "locations",
+    "room", "rooms", "campus", "floor", "floors"
+  ],
+
+  "generic_unit_words": [
+    "department", "departments", "office", "offices",
+    "program", "programs", "school", "schools", "college", "colleges"
+  ],
+
+  "generic_money_words": [
+    "pay", "paying", "money", "afford", "expensive", "cheap", "bill", "billing"
+  ],
+
+  "generic_doc_words": [
+    "document", "documents", "info", "information"
+  ],
+
+  "domain_synonyms": {
+    "CALENDAR": {
+      "drop": ["withdraw", "withdrawal", "deadline"],
+      "add": ["register", "registration"],
+      "registration": ["register", "enroll"],
+      "exam": ["midterm", "final"],
+      "graduation": ["commencement"],
+      "break": ["holiday", "recess"]
+    },
+    "CONTACTS": {
+      "professor": ["faculty", "instructor"],
+      "head": ["chair", "director"],
+      "advisor": ["counselor"],
+      "dean": ["department head", "chair"],
+      "registrar": ["records", "registration"],
+      "financial aid": ["scholarship", "fafsa"],
+      "it": ["helpdesk", "support"]
+    },
+    "DOCUMENTS": {
+      "policy": ["rule", "regulation"],
+      "housing": ["dormitory", "residence"],
+      "gpa": ["grade point average", "requirement"],
+      "medical": ["health", "clinic"],
+      "plagiarism": ["academic integrity", "cheating"],
+      "food": ["dining", "meal plan"],
+      "international": ["visa", "iss"],
+      "transcript": ["official transcript", "academic record"],
+      "transcripts": ["transcript order", "registrar policy"],
+      "parchment": ["online transcript", "electronic transcript"]
+    },
+    "TUITION": {
+      "tuition": ["fees", "cost", "rates"],
+      "fee": ["tuition", "charge", "cost"],
+      "per credit": ["per credit hour", "credit"],
+      "semester": ["term", "per term"],
+      "graduate": ["grad", "graduate student"],
+      "full-time": ["full time"],
+      "part-time": ["part time"],
+      "insurance": ["health insurance"],
+      "activity": ["activity fee"],
+      "mandatory": ["required fees"]
+    }
+  }
+}
